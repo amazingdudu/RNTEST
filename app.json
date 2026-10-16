@@ -42,13 +42,14 @@
             "usesCleartextTraffic": true
           }
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
     },
-    "runtimeVersion": "native-1",
+    "runtimeVersion": "native-2",
     "updates": {
       "enabled": true,
       "url": "http://localhost:3000/api/manifest",

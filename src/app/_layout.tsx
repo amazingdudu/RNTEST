@@ -3,6 +3,7 @@ import * as SplashScreen from "expo-splash-screen";
 import { useColorScheme } from "react-native";
 
 import { AnimatedSplashOverlay } from "@/components/animated-icon";
+import { UpdateAnalyticsReporter } from "@/components/update-analytics-reporter";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -11,6 +12,7 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
       <AnimatedSplashOverlay />
+      <UpdateAnalyticsReporter />
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="a" options={{ title: "页面 A" }} />
