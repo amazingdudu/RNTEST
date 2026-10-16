@@ -1,0 +1,7 @@
+{
+  "name": "my-module",
+  "version": "1.0.0",
+  "description": "Local native greeting module",
+  "main": "index.ts",
+  "private": true
+}
